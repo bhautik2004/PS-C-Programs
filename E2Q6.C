@@ -5,28 +5,28 @@
 */
 #include<stdio.h>
 #include<conio.h>
-int DayName(int day){
+void DayName(int day){
 	switch(day){
 		case 1:
-			Printf("Sunday");
+			printf("Sunday");
 			break;
 		case 2:
-			Printf("Monday");
+			printf("Monday");
 			break;
 		case 3:
-			Printf("Tuesday");
+			printf("Tuesday");
 			break;
 		case 4:
-			Printf("Wednesday");
+			printf("Wednesday");
 			break;
 		case 5:
-			Printf("Thursday");
+			printf("Thursday");
 			break;
 		case 6:
-			Printf("Friday");
+			printf("Friday");
 			break;
 		case 7:
-			Printf("Saturday");
+			printf("Saturday");
 			break;
 		default:
 			printf("INVALID DAY");
@@ -34,9 +34,38 @@ int DayName(int day){
 }
 void main(){
 	int day;
-	clrscr()
+	clrscr();
 	printf("Enter Number Of day in Week : ");
 	scanf("%d",&day);
+	DayName(day);
 	getch();
-	printf(DayName(day));
 }
+/*
+  output:
+  Enter Number Of day in Week : 5
+Thursday                                                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+
+*/
