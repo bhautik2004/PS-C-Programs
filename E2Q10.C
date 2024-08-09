@@ -100,6 +100,21 @@ void main(){
 	printf("\n\n HRA = %g ",hra);
 	printf("\n PERKS = %g",perks);
 	printf("\n Gross Salary = %g",grosssalary);
-	printf("\n Net Salry = %g ",netsalary);
+	printf("\n Net Salry = %gd ",netsalary);
 	getch();
 }
+/*
+  output:
+  Enter Job Number : 5
+Enter Level : 4                                                                 
+Enter Basic Pay50000                                                            
+                                                                                
+                                                                                
+ HRA = 5000                                                                     
+ PERKS = 250
+ Gross Salary = 55250                                                           
+ Net Salry = 50830                                                              
+                                                                                
+                                                                                              
+
+*/
